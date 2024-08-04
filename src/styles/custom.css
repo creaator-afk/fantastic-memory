@@ -1,0 +1,93 @@
+/* `src/styles/custom.css` */
+body {
+    background: linear-gradient(135deg, #000000, #000000);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+h1, h2 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05) translateZ(-10px);
+    animation: animateBorder 5s linear infinite; /* Apply the animation */
+
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+button {
+    background-image: linear-gradient(135deg, #986dea, #fd68b3 50%, #fd919c);
+    border: none;
+    color: #fff;
+    transition: background 0.05s ease-in-out;
+
+}
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    75% {
+         background-position: 50% 50%;
+     }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.sidebar {
+    background: linear-gradient(135deg, #986dea, #fd68b3 50%, #fd919c, #fd68b3,#986dea);
+    background-size: 400% 400%;
+    animation: animateBackground 10s ease infinite;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #feb47b, #ff7e5f);
+}
+
+@keyframes animateBorder {
+    0% {
+        border-color: #986dea;
+    }
+    50% {
+        border-color: #fd68b3;
+    }
+    100% {
+        border-color: #986dea;
+    }
+}
+
+#welcome {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #252525, #000000);
+}
+
+#welcome:hover {
+    color: #fff;
+    transition: none; /* Remove transition */
+    transform: none; /* Remove transform */
+    animation: none; /* Remove animation */
+}

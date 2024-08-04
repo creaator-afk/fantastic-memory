@@ -1,0 +1,44 @@
+/* `src/components/common/Sidebar.css` */
+.sidebar {
+  margin-top: 50px;
+  width: 250px;
+  transition: width 0.3s;
+}
+
+.sidebar.collapsed {
+  width: fit-content;
+}
+
+.toggle-btn {
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar .nav-link .fa-icon {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+.sidebar.collapsed .nav-link .fa-icon {
+  margin: 20px;
+}
+
+.sidebar.collapsed .nav-link {
+  margin-bottom: 7px;
+  justify-content: left;
+  align-items: center;
+}
+.icon-black {
+  color: black;
+}
+.icon-text-black {
+  color: black;
+}
+.icon-large {
+  font-size: 1.5em; /* Adjust the size as needed */
+}

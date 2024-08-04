@@ -1,0 +1,35 @@
+/* `src/pages/RestaurantPage.css` */
+.restaurant-container {
+  margin-top: 20px;
+}
+
+.restaurant-container .card {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  background: #333;
+  color: #fff;
+}
+
+.restaurant-container .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.sidebar {
+  padding: 20px;
+  background: #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.focused-window {
+  padding: 20px;
+  background: #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.focused-window img {
+  margin-bottom: 10px;
+}

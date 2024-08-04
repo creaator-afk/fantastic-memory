@@ -1,0 +1,37 @@
+/* `src/pages/ProfileEditPage.css` */
+.sidebar {
+  padding: 20px;
+  background: #444;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.sidebar .nav-link {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.sidebar .nav-link:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+.profile-edit-container {
+  margin-top: 50px;
+  padding: 20px;
+  background: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.profile-edit-container .form-control {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+}
+
+.profile-edit-container .form-control::placeholder {
+  color: #afafaf;
+}

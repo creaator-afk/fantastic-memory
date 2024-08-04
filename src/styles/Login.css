@@ -1,0 +1,50 @@
+/* `src/components/Login.css` */
+.login-container {
+  margin-top: 100px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.login-container .form-label {
+  color: #fff;
+}
+
+.login-container .form-control {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+}
+
+.login-container .form-control::placeholder {
+  color: #afafaf;
+}
+
+.login-container .btn-primary {
+  background: linear-gradient(135deg, #986dea, #fd68b3 50%, #fd919c);
+  border: none;
+}
+
+@keyframes animateButtonBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-button {
+    background: linear-gradient(135deg, #986dea, #fd68b3 50%, #fd919c);
+    background-size: 200% 200%;
+    animation: animateButtonBackground 5s ease infinite;
+}

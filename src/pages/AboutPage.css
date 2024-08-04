@@ -1,0 +1,19 @@
+/* `src/pages/AboutPage.css` */
+.about-container {
+  margin-top: 50px;
+  padding: 20px;
+  background: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.about-container .form-control {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border: none;
+}
+
+.about-container .form-control::placeholder {
+  color: #afafaf;
+}
